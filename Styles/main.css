@@ -1,0 +1,419 @@
+body {
+  background-color: #FFFFFF;
+  font-size: 100%;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  color: #333;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#cart {
+  float: right;
+}
+
+img {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: .5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+.nav {
+  padding-bottom: 5px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner1 {
+  align-self: center;
+  flex-wrap: wrap;
+  margin-left: 375px;
+}
+
+.banner2 img {
+  padding-right: 2px;
+}
+
+.big {
+  display: inline-flex;
+}
+
+.picframe {
+  padding: 7px;
+}
+
+#discount {
+  height: 20px;
+  color: white;
+  background-color: #333;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 4px;
+}
+
+a.contact {
+  color: white;
+}
+
+header {
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border-bottom: .5px solid #333;
+}
+
+.nav {
+  margin-left: 35px;
+}
+
+.nav a {
+  padding-right: 25px;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#terms {
+  list-style-type: none;
+}
+
+#name {
+  font-weight: normal;
+}
+
+a.contact:hover {
+  color: #E8E8E8;
+}
+
+#cat {
+  font-weight: normal;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 90%;
+  margin-bottom: 100px;
+}
+
+.item {
+  display: inline-block;
+}
+
+.item_box {
+  text-align: left;
+  max-width: 225px;
+  margin-right: 20px;
+}
+
+.nav {
+  font-family: 'Open Sans', sans-serif;
+  align-self: center;
+  font-size: 16px;
+  padding-right: 20px;
+  color: #666666;
+}
+
+#userName,
+#userEmail {
+  height: 20px;
+  width: 60%;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+#userMessage {
+  height: 300px;
+  width: 60%;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.service {
+  text-decoration: underline;
+}
+
+footer {
+  display: block;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #333;
+  color: white;
+  height: 30px;
+  margin: 0 auto;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  font-size: 12px;
+}
+
+.paypal {
+  border: 1px white;
+  background-color: #333;
+  color: white;
+  max-height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 90px;
+  padding-bottom: 5px;
+  border-radius: 10%;
+  box-shadow: 2.5px 2.5px 2.5px black;
+}
+
+.submitButton {
+  border: 1px white;
+  background-color: #333;
+  color: white;
+  max-height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-right: 90px;
+  border-radius: 10%;
+  box-shadow: 2.5px 2.5px 2.5px black;
+}
+
+.item2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_box2 {
+  margin-right: 70px;
+}
+
+.item_box3 {
+  padding-right: 70px;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width:1024px) {
+  body {
+    margin-left: 5px;
+  }
+  .banner1 {
+    margin-left: 285px;
+  }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    padding-bottom: 5px;
+  }
+  .nav a {
+    padding-right: 15px;
+  }
+  .item {
+    display: inline-flex;
+    margin: auto 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    display: block;
+  }
+  .banner1 {
+    margin-left: 60px;
+  }
+  .banner2 img {
+    padding-bottom: 10px;
+  }
+  .item_box {
+    align-self: center;
+    margin: 0 auto;
+  }
+  .wrapper {
+    margin-bottom: 100px;
+  }
+  .item_box img {
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+  .item2 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .item_box2 {
+    margin-left: 2px;
+    margin-right: 2px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+  }
+  .item_box3 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .picframe img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  #terms {
+    text-align: left;
+  }
+  #userName,
+  #userEmail,
+  #userMessage {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 90%;
+    line-height: 1.4em;
+  }
+  .wrapper {
+    max-width: 80%;
+  }
+  .submitButton {
+    margin-right: 50px;
+  }
+  #userName,
+  #userEmail,
+  #userMessage {
+    width: 100%;
+  }
+  .banner {
+    display: block;
+  }
+  .banner2 img {
+    max-width: 20px;
+    max-height: 20px;
+    padding-bottom: 5px;
+  }
+  .banner1 {
+    margin-left: 0px;
+  }
+  .banner2 {
+    margin-right: 0px;
+  }
+  .banner img {
+    margin: 0 auto;
+  }
+  .wrapper {
+    margin-bottom: 100px;
+  }
+  #discount {
+    font-size: 12px;
+  }
+  .item2 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .item_box2 {
+    margin-left: 2px;
+    margin-right: 2px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+  }
+  .item_box3 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .nav {
+    margin-left: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+    align-self: center;
+  }
+  .nav a {
+    margin: 0 auto;
+    padding: 3px;
+  }
+  #cart {
+    display: none;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item_box {
+    margin: 0 auto;
+  }
+  .item2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .item_box2 {
+    margin-left: 2px;
+    margin-right: 2px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+  }
+  .item_box3 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .item_box2 img {
+    max-width: 200px;
+    height: auto;
+    align-self: center;
+  }
+  .big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .picframe img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .nav {
+    padding-bottom: 0px;
+  }
+  .terms p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
